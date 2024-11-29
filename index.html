@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Orders</h2>
+    <div class="container">
+        <label for="">Drinks</label>
+        <input id="drinksInput" type="text">
+        <label for="">Appetizers</label>
+        <input id="appetizersInput" type="text">
+        <label for="">Main Course</label>
+        <input id="mainCourseInput" type="text">
+        <label for="">Dessert</label>
+        <input id="dessertInput" type="text">
+
+
+        <button onclick="addOrder()">Add Order</button>
+    </div>
+<br> <br>
+    <table id="orderTable" border style="width: 100%;">
+        <thead>
+            <th>Drinks</th>
+            <th>Appetizers</th>
+            <th>Main Course</th>
+            <th>Dessert</th>
+            <th>Action</th>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
